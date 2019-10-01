@@ -1,0 +1,7 @@
+# simple program that outputs three values that sum up to a given value.
+int a, b, c, target;
+
+invariant a + b + c == target;
+invariant a > 0, b > 0, c > 0;
+
+expose a, b, c, target;
